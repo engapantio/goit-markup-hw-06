@@ -955,16 +955,16 @@ img,
     gap: 72px 24px;
   }
 
-  .our-values .object {
-    width: calc((100% - 24px) / 2);
-  }
-
   .value {
     text-align: left;
   }
 
   .staff {
-    padding: 96px 108px;
+    padding: 96px 0;
+  }
+
+  .staff .container {
+    padding: 0 108px;
   }
 
   .staff-list {
@@ -972,7 +972,9 @@ img,
     padding: 0;
   }
 
-  .staff-card {
+  .our-values .object,
+  .staff-card,
+  .portfolio-card {
     width: calc((100% - 24px) / 2);
   }
 
@@ -980,28 +982,22 @@ img,
     gap: 72px 24px;
   }
 
-  .portfolio-card {
-    width: calc((100% - 24px) / 2);
-  }
-
   .page-ending {
-    padding: 96px 108px;
+    padding: 96px 0;
   }
 
   .page-ending-container {
     align-items: baseline;
     justify-content: flex-start;
     gap: 72px 24px;
+    padding: 0 108px;
   }
 
   .page-ending-start {
     width: 264px;
   }
 
-  .logo-lower {
-    margin: 0;
-  }
-
+  .logo-lower,
   .ending-socials {
     margin: 0;
   }
@@ -1171,8 +1167,7 @@ img,
     justify-content: center;
     height: 112px;
     background-color: #f4f4fd;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 24px;
     margin-bottom: 8px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
