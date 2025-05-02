@@ -3,7 +3,6 @@ body {
   color: #434455;
   background-color: #fff;
   line-height: 21px;
-  overflow-x: hidden;
 }
 
 input,
@@ -62,6 +61,7 @@ img,
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
 }
 
 .top-line {
@@ -166,6 +166,7 @@ img,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 .btn-menu-close {
