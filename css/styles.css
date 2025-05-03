@@ -956,6 +956,17 @@ img,
       ),
       url(../images/people-office-t.jpg);
   }
+
+  @media (min-resolution: 2x) {
+    .hero-image {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-t@2x.jpg);
+    }
+  }
+
   .headline {
     font-size: 56px;
     line-height: 1.07;
@@ -1161,6 +1172,17 @@ img,
       ),
       url(../images/people-office-d.jpg);
   }
+
+  @media (min-resolution: 2x) {
+    .hero-image {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-d@2x.jpg);
+    }
+  }
+
   .headline {
     font-size: 56px;
     line-height: 1.07;
